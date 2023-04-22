@@ -1,0 +1,50 @@
+.detail__page__container{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-rows: 5rem 20rem 10rem;
+    grid-template-columns: 30rem 20rem 15rem;
+
+    grid-gap: 3rem;
+    
+
+
+}
+
+.detail__page__title{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+
+
+}
+
+.detail__page__product__image{
+    width: 100%;
+    height: 100%;
+
+    grid-row: 2/4;
+    grid-column: 1/2;
+
+
+}
+
+.detail__page__product__description{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.detail__page__sidebar{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}

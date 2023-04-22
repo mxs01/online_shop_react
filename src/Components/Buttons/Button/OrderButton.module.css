@@ -1,0 +1,12 @@
+.order__button{
+    width: 50%;
+    height: 1.5rem;
+    border: 1px solid var(--backgroundColor);
+    border-radius: 8px;
+    background-color: rgb(249,217,76);
+}
+
+.order__button:hover{
+    background-color: rgb(247, 202, 5);
+    color: var(--backgroundColor);
+}

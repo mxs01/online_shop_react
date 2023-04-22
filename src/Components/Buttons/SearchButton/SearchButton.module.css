@@ -1,0 +1,13 @@
+.search__button{
+    width: 15%;
+    height: 1.5rem;
+    border: 1px solid var(--backgroundColor);
+    border-radius: 8px;
+    background-color: rgb(249,217,76);
+    z-index: 1;
+}
+
+.search__button:hover{
+    background-color: rgb(247, 202, 5);
+    color: var(--backgroundColor);
+}
