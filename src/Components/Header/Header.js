@@ -20,7 +20,7 @@ const Header = () => {
       </div>
       <nav className={classes.nav__bar__items}>
         {!isLogged && <NavLink className={({isActive}) => isActive ? classes.active:classes.nav__bar__item} to="login">Login</NavLink>}
-        {isLogged && <NavLink className={({isActive}) => isActive ? classes.active:classes.nav__bar__item} to="myAccount">My Account</NavLink>}
+        {isLogged && <NavLink className={({isActive}) => isActive ? classes.active:classes.nav__bar__item} to="products">Products</NavLink>}
         {/* {isLogged && <NavLink className={({isActive}) => isActive ? classes.active:classes.nav__bar__item}  >Cart</NavLink>} */}
       </nav>
     </div>
