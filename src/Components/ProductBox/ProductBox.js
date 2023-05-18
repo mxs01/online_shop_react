@@ -1,7 +1,10 @@
 import classes from './ProductBox.module.css'
 
 const ProductBox = (props) => {
-    return <li className={classes.product__box__container} key={props.id} id={props.id}>
+
+    
+
+    return <li className={classes.product__box__container} key={props.id} id={props.id} onClick={props.onOpen}>
         <div className={classes.product__box__image__container}>
             <img className={classes.product__box__image} src={props.img} alt="Image of the product"></img>
         </div>
